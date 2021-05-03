@@ -110,7 +110,7 @@ footer {
     text-align: center;
 }
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .column {
         flex: 50%;
     }
@@ -120,4 +120,4 @@ footer {
     .row {
         flex-direction: column;
     }
-} */
+}
