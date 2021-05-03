@@ -1,0 +1,123 @@
+body {
+    background-color: indigo;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lavender;
+    max-height: 40px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navContent {
+    margin-left: 10px;
+    list-style: none;
+}
+
+header h1 {
+    display: flex;
+    font-size: 50px;
+    color: lavender;
+    justify-content: center;
+}
+
+#mypic {
+    display: flex;
+    max-height: 200px;
+    max-width: 100px;
+    align-self: center;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    color: lavender;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h2 p {
+    display: flex;
+    text-align: start;
+}
+
+.am-con {
+    display: flex;
+    background-color: lavender;
+    margin-bottom: 110px;
+}
+
+.p-con {
+    display: flex;
+    background-color: lavender;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+
+.p-con img {
+    max-height: 200px;
+    max-width: 100px;
+}
+
+#project2 {
+    height: 115px;
+}
+
+#portfolio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.column {
+    display: flex;
+    margin-left: 60px;
+    flex-wrap: wrap;
+}
+
+.c-con {
+    display: flex;
+    background-color: lavender;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* @media screen and (max-width: 992px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+} */
