@@ -65,6 +65,11 @@ h2 p {
     margin-bottom: 110px;
 }
 
+.row img {
+    display: flex;
+    margin-top: 10px;
+}
+
 .p-con {
     display: flex;
     background-color: lavender;
@@ -72,19 +77,26 @@ h2 p {
     margin-bottom: 110px;
 }
 
+.test {
+    display: flex;
+    flex-direction: initial;
+    color: lavender;
+}
+
 .p-con img {
     max-height: 200px;
     max-width: 100px;
 }
 
-#project2 {
-    height: 115px;
+.homework {
+    display: flex;
+    flex-direction: column;
 }
 
-#portfolio{
-    display: flex;
-    justify-content: flex-end;
-}
+/* #project2 {
+    height: 115px;
+} */
+
 
 .row {
     display: flex;
@@ -99,11 +111,17 @@ h2 p {
 }
 
 .c-con {
-    display: flex;
     background-color: lavender;
-    flex-direction: column;
-    text-align: center;
     margin-bottom: 110px;
+}
+
+.contact {
+    display: flex;
+    line-height: 1.5;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
 }
 
 footer {
