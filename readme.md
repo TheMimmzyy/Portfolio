@@ -7,5 +7,5 @@ With this project I began completely from scratch, as I wanted to challenge myse
 Style.css:
 I took my css in chunks corresponding with the index.html as I built it. I followed the exact same path as before, starting with the navbar, then each respective section (about me, portfolio, contact me.) However there was the needed addition of responive layout for other devices, this was the last bit of functionality I added to the web page. I touched up the last details with some final image resizing.
 
-
+https://themimmzyy.github.io/Portfolio/
 ![alt text](assets/images/portfolio.png)
